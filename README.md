@@ -1,0 +1,1 @@
+An expression evaluator that handles the following operators/tokens: +, -, /, *, %, (, ), integers (positive and negative). All expression will have a space between each token to simplify parsing. All input should come from the STDIN. The program loops until the user types QUIT—notice the all caps.

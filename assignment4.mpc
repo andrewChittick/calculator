@@ -1,0 +1,34 @@
+project (assignment4) {
+  exename = assignment4
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -std=c++11
+  }
+
+  Source_Files {
+    Expr_Node_Visitor.cpp
+    Expr_Node.cpp
+    Unary_Expr_Node.cpp
+    Binary_Expr_Node.cpp
+    Num_Expr_Node.cpp
+    Add_Expr_Node.cpp
+    Subtract_Expr_Node.cpp
+    Multiply_Expr_Node.cpp
+    Divide_Expr_Node.cpp
+    Modulus_Expr_Node.cpp
+    Expr_Tree.cpp
+    Expr_Builder.cpp
+    Expr_Tree_Builder.cpp
+    Eval_Expr_Tree.cpp
+    Calculator.cpp
+    main.cpp
+  }
+
+  Template_Files {
+    Array_Base.cpp
+    Array.cpp
+    Stack.cpp
+    Queue.cpp
+  }
+}
